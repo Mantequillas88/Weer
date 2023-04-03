@@ -13,6 +13,8 @@ protocol WeatherManagerDelegate {
     func didFailWithError(error: Error)
 }
 
+//IMPORTANT - add file to Model folder called MyAPIKey with "let apiKey = "[YOUR API KEY]"" in the body - get your API Key from openweathermap.org
+
 let apiKey = MyAPIKey
 
 struct WeatherManager {
