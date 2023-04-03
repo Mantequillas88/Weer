@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		1EC59C2329D3714400DF3D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2229D3714400DF3D87 /* AppDelegate.swift */; };
 		1EC59C2529D3714400DF3D87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2429D3714400DF3D87 /* SceneDelegate.swift */; };
-		1EC59C2729D3714400DF3D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2629D3714400DF3D87 /* ViewController.swift */; };
+		1EC59C2729D3714400DF3D87 /* WeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2629D3714400DF3D87 /* WeerViewController.swift */; };
 		1EC59C2A29D3714400DF3D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C2829D3714400DF3D87 /* Main.storyboard */; };
 		1EC59C2C29D3714500DF3D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C2B29D3714500DF3D87 /* Assets.xcassets */; };
 		1EC59C2F29D3714500DF3D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C2D29D3714500DF3D87 /* LaunchScreen.storyboard */; };
+		1EC59C3A29D371A400DF3D87 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C3629D371A300DF3D87 /* Dosis-Regular.ttf */; };
+		1EC59C3B29D371A400DF3D87 /* Dosis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C3729D371A300DF3D87 /* Dosis-Light.ttf */; };
+		1EC59C3C29D371A400DF3D87 /* Dosis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C3829D371A400DF3D87 /* Dosis-ExtraLight.ttf */; };
+		1EC59C3D29D371A400DF3D87 /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EC59C3929D371A400DF3D87 /* Dosis-Medium.ttf */; };
+		1EC59C3F29D37D8300DF3D87 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */; };
+		1EC59C4129D37DB800DF3D87 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C4029D37DB800DF3D87 /* WeatherData.swift */; };
+		1EC59C4329D37DD400DF3D87 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */; };
+		1EDDAFC329DAF74F008A6BE0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDAFC229DAF74F008A6BE0 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EC59C1F29D3714400DF3D87 /* Weer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC59C2229D3714400DF3D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EC59C2429D3714400DF3D87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EC59C2629D3714400DF3D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EC59C2629D3714400DF3D87 /* WeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeerViewController.swift; sourceTree = "<group>"; };
 		1EC59C2929D3714400DF3D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EC59C2B29D3714500DF3D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EC59C2E29D3714500DF3D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EC59C3029D3714500DF3D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC59C3629D371A300DF3D87 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		1EC59C3729D371A300DF3D87 /* Dosis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.ttf"; sourceTree = "<group>"; };
+		1EC59C3829D371A400DF3D87 /* Dosis-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraLight.ttf"; sourceTree = "<group>"; };
+		1EC59C3929D371A400DF3D87 /* Dosis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.ttf"; sourceTree = "<group>"; };
+		1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		1EC59C4029D37DB800DF3D87 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1EDDAFC229DAF74F008A6BE0 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,45 @@
 			children = (
 				1EC59C2229D3714400DF3D87 /* AppDelegate.swift */,
 				1EC59C2429D3714400DF3D87 /* SceneDelegate.swift */,
-				1EC59C2629D3714400DF3D87 /* ViewController.swift */,
-				1EC59C2829D3714400DF3D87 /* Main.storyboard */,
+				1EC59C4429D37FF000DF3D87 /* Model */,
+				1EC59C4529D37FFD00DF3D87 /* Controller */,
+				1EC59C4629D3800700DF3D87 /* View */,
 				1EC59C2B29D3714500DF3D87 /* Assets.xcassets */,
 				1EC59C2D29D3714500DF3D87 /* LaunchScreen.storyboard */,
 				1EC59C3029D3714500DF3D87 /* Info.plist */,
+				1EC59C3829D371A400DF3D87 /* Dosis-ExtraLight.ttf */,
+				1EC59C3729D371A300DF3D87 /* Dosis-Light.ttf */,
+				1EC59C3929D371A400DF3D87 /* Dosis-Medium.ttf */,
+				1EC59C3629D371A300DF3D87 /* Dosis-Regular.ttf */,
 			);
 			path = Weer;
+			sourceTree = "<group>";
+		};
+		1EC59C4429D37FF000DF3D87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */,
+				1EC59C4029D37DB800DF3D87 /* WeatherData.swift */,
+				1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */,
+				1EDDAFC229DAF74F008A6BE0 /* Config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EC59C4529D37FFD00DF3D87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EC59C2629D3714400DF3D87 /* WeerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1EC59C4629D3800700DF3D87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EC59C2829D3714400DF3D87 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +173,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC59C3D29D371A400DF3D87 /* Dosis-Medium.ttf in Resources */,
 				1EC59C2F29D3714500DF3D87 /* LaunchScreen.storyboard in Resources */,
 				1EC59C2C29D3714500DF3D87 /* Assets.xcassets in Resources */,
+				1EC59C3A29D371A400DF3D87 /* Dosis-Regular.ttf in Resources */,
+				1EC59C3B29D371A400DF3D87 /* Dosis-Light.ttf in Resources */,
 				1EC59C2A29D3714400DF3D87 /* Main.storyboard in Resources */,
+				1EC59C3C29D371A400DF3D87 /* Dosis-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EC59C2729D3714400DF3D87 /* ViewController.swift in Sources */,
+				1EC59C2729D3714400DF3D87 /* WeerViewController.swift in Sources */,
 				1EC59C2329D3714400DF3D87 /* AppDelegate.swift in Sources */,
+				1EC59C3F29D37D8300DF3D87 /* WeatherManager.swift in Sources */,
+				1EDDAFC329DAF74F008A6BE0 /* Config.swift in Sources */,
+				1EC59C4129D37DB800DF3D87 /* WeatherData.swift in Sources */,
+				1EC59C4329D37DD400DF3D87 /* WeatherModel.swift in Sources */,
 				1EC59C2529D3714400DF3D87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,11 +346,11 @@
 				DEVELOPMENT_TEAM = FV7PXL238V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weer/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +374,11 @@
 				DEVELOPMENT_TEAM = FV7PXL238V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weer/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the current weather for where you are.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

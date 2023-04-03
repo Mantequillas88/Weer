@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dosis-ExtraLight.ttf">
+            <string>Dosis-ExtraLight</string>
+        </array>
+        <array key="Dosis-Light.ttf">
+            <string>Dosis-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Weer View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WeerViewController" customModule="Weer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pl1-r0-XHb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-KV-3EC">
+                                <rect key="frame" x="16" y="47" width="344" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6I-Xx-NYK">
+                                        <rect key="frame" x="0.0" y="1" width="40" height="38.666666666666671"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="8MH-P6-77S"/>
+                                            <constraint firstAttribute="height" constant="40" id="b19-9U-rNU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" name="Color"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="location.circle.fill" catalog="system">
+                                            <color key="titleColor" name="Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="locationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khx-B6-MdL"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="noE-FG-UiT">
+                                        <rect key="frame" x="67" y="0.0" width="210" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.037717301324503308" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="bPE-gy-QJW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jje-HM-ZLn">
+                                        <rect key="frame" x="304" y="0.99999999999999645" width="40" height="38.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Wrv-yb-TAg"/>
+                                            <constraint firstAttribute="width" constant="40" id="aeg-Rr-DVF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="tintColor" name="Color"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" backgroundImage="magnifyingglass" catalog="system">
+                                            <color key="titleColor" name="Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hzw-4u-3Wi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="FDg-Dx-yb5">
+                                <rect key="frame" x="236.66666666666666" y="345.33333333333331" width="122.33333333333334" height="101.33333333333331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcA-hK-sFl">
+                                        <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="101.33333333333333"/>
+                                        <fontDescription key="fontDescription" name="Dosis-ExtraLight" family="Dosis" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hB1-eA-klO">
+                                        <rect key="frame" x="54.66666666666665" y="0.0" width="25.666666666666664" height="101.33333333333333"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Light" family="Dosis" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLB-93-MBS">
+                                        <rect key="frame" x="81.333333333333343" y="0.0" width="41" height="101.33333333333333"/>
+                                        <fontDescription key="fontDescription" name="Dosis-ExtraLight" family="Dosis" pointSize="80"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-Ah-8KB">
+                                <rect key="frame" x="266" y="451.66666666666669" width="93" height="42"/>
+                                <fontDescription key="fontDescription" name="Dosis-Light" family="Dosis" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HAu-Fa-y8q" userLabel="condition view">
+                                <rect key="frame" x="259" y="232" width="100" height="107"/>
+                                <color key="tintColor" name="Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6fN-hU-BhP"/>
+                                    <constraint firstAttribute="width" constant="100" id="I9b-wj-4lZ"/>
+                                </constraints>
+                                <imageReference key="image" image="sun.max" catalog="system" symbolScale="large"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FDg-Dx-yb5" firstAttribute="centerY" secondItem="pl1-r0-XHb" secondAttribute="centerY" constant="-10" id="2Ki-5d-EOv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EQD-Ah-8KB" secondAttribute="trailing" constant="16" id="9aZ-7i-kmQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HAu-Fa-y8q" secondAttribute="trailing" constant="16" id="Jey-ws-1gi"/>
+                            <constraint firstItem="pl1-r0-XHb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OdQ-Pq-J8t"/>
+                            <constraint firstAttribute="bottom" secondItem="pl1-r0-XHb" secondAttribute="bottom" id="Ufg-i9-VNY"/>
+                            <constraint firstItem="BbR-KV-3EC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Vbl-hy-mtd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FDg-Dx-yb5" secondAttribute="trailing" constant="16" id="fSJ-lz-Uca"/>
+                            <constraint firstItem="EQD-Ah-8KB" firstAttribute="top" secondItem="FDg-Dx-yb5" secondAttribute="bottom" constant="5" id="guR-Hs-sRT"/>
+                            <constraint firstItem="FDg-Dx-yb5" firstAttribute="top" secondItem="HAu-Fa-y8q" secondAttribute="bottom" constant="10" id="hMn-Uu-jy2"/>
+                            <constraint firstItem="pl1-r0-XHb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hbi-X1-Mir"/>
+                            <constraint firstItem="BbR-KV-3EC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kVF-gg-RMH"/>
+                            <constraint firstItem="pl1-r0-XHb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="xoY-ab-hYt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BbR-KV-3EC" secondAttribute="trailing" constant="15" id="yCN-2A-gd6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="EQD-Ah-8KB" id="gGD-3A-8JZ"/>
+                        <outlet property="conditionImageView" destination="HAu-Fa-y8q" id="0V3-tB-2Jn"/>
+                        <outlet property="searchTextField" destination="noE-FG-UiT" id="IXr-87-lrh"/>
+                        <outlet property="temperatureLabel" destination="RcA-hK-sFl" id="7nb-wj-Ysb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="2.9556650246305418"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1170" height="2532"/>
+        <image name="location.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="sun.max" catalog="system" width="128" height="125"/>
+        <namedColor name="Color">
+            <color red="0.046999998390674591" green="0.019999999552965164" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
