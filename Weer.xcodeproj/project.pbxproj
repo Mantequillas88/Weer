@@ -20,7 +20,7 @@
 		1EC59C3F29D37D8300DF3D87 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */; };
 		1EC59C4129D37DB800DF3D87 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C4029D37DB800DF3D87 /* WeatherData.swift */; };
 		1EC59C4329D37DD400DF3D87 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */; };
-		1EDDAFC329DAF74F008A6BE0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDAFC229DAF74F008A6BE0 /* Config.swift */; };
+		1EDDAFC329DAF74F008A6BE0 /* MyAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDAFC229DAF74F008A6BE0 /* MyAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		1EC59C4029D37DB800DF3D87 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
-		1EDDAFC229DAF74F008A6BE0 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1EDDAFC229DAF74F008A6BE0 /* MyAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 				1EC59C3E29D37D8300DF3D87 /* WeatherManager.swift */,
 				1EC59C4029D37DB800DF3D87 /* WeatherData.swift */,
 				1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */,
-				1EDDAFC229DAF74F008A6BE0 /* Config.swift */,
+				1EDDAFC229DAF74F008A6BE0 /* MyAPIKey.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 				1EC59C2729D3714400DF3D87 /* WeerViewController.swift in Sources */,
 				1EC59C2329D3714400DF3D87 /* AppDelegate.swift in Sources */,
 				1EC59C3F29D37D8300DF3D87 /* WeatherManager.swift in Sources */,
-				1EDDAFC329DAF74F008A6BE0 /* Config.swift in Sources */,
+				1EDDAFC329DAF74F008A6BE0 /* MyAPIKey.swift in Sources */,
 				1EC59C4129D37DB800DF3D87 /* WeatherData.swift in Sources */,
 				1EC59C4329D37DD400DF3D87 /* WeatherModel.swift in Sources */,
 				1EC59C2529D3714400DF3D87 /* SceneDelegate.swift in Sources */,
