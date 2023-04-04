@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1EB7391829DC567D001C90E7 /* MyAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7391729DC567D001C90E7 /* MyAPIKey.swift */; };
-		1EB7391A29DC5694001C90E7 /* MyAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB7391929DC5694001C90E7 /* MyAPIKey.swift */; };
 		1EC59C2329D3714400DF3D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2229D3714400DF3D87 /* AppDelegate.swift */; };
 		1EC59C2529D3714400DF3D87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2429D3714400DF3D87 /* SceneDelegate.swift */; };
 		1EC59C2729D3714400DF3D87 /* WeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC59C2629D3714400DF3D87 /* WeerViewController.swift */; };
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		1EB7391729DC567D001C90E7 /* MyAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIKey.swift; sourceTree = "<group>"; };
-		1EB7391929DC5694001C90E7 /* MyAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIKey.swift; sourceTree = "<group>"; };
 		1EC59C1F29D3714400DF3D87 /* Weer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC59C2229D3714400DF3D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EC59C2429D3714400DF3D87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				1EC59C4029D37DB800DF3D87 /* WeatherData.swift */,
 				1EC59C4229D37DD400DF3D87 /* WeatherModel.swift */,
 				1EB7391729DC567D001C90E7 /* MyAPIKey.swift */,
-				1EB7391929DC5694001C90E7 /* MyAPIKey.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,7 +192,6 @@
 			files = (
 				1EC59C2729D3714400DF3D87 /* WeerViewController.swift in Sources */,
 				1EC59C2329D3714400DF3D87 /* AppDelegate.swift in Sources */,
-				1EB7391A29DC5694001C90E7 /* MyAPIKey.swift in Sources */,
 				1EB7391829DC567D001C90E7 /* MyAPIKey.swift in Sources */,
 				1EC59C3F29D37D8300DF3D87 /* WeatherManager.swift in Sources */,
 				1EC59C4129D37DB800DF3D87 /* WeatherData.swift in Sources */,
